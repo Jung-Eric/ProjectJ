@@ -159,9 +159,13 @@ NormalMainGameScene(Puzzle 목적의 Game Scene) 에서 Game 플레이를 총괄
 
 
 NodeBasedEditor에서 편집한 대로 캐릭터의 대화창이 구성되는것을 볼 수 있습니다.  
+
 NodeBasedEditor은 Node와 Link의 형태로 대화를 생성하여 유기적인 대화를 구성할 수 있습니다.  
+
 Node는 대화와 선택지들, Link는 이들의 유기적인 연결을 의미합니다.  
-위 정보를 DialogueContainer Class 파일로 저장할 수 있습니다.(Save Data로 저장 가능)  
+
+위 정보를 [DialogueContainer](https://github.com/Jung-Eric/ProjectLM/blob/master/DialogueType/DialogueContainer.cs) Class 파일로 저장할 수 있습니다.(Save Data로 저장 가능)  
+
 추후 Load Data 기능을 이용해 불러와 편집할 수 잇습니다.  
 
 </br>
