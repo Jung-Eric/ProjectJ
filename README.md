@@ -171,7 +171,7 @@ Node는 대화와 선택지들, Link는 이들의 유기적인 연결을 의미�
 </br>
 
 이러한 DialogueContainer 파일을 해석해 즉각적으로 게임 내 대화창을 구성할 수도 있습니다.  
-DialogueCanvase에 적용해둔 DialogueMaker에 의해 대화창이 구성되고 진행됩니다.  
+DialogueCanvas에 적용해둔 DialogueMaker에 의해 대화창이 구성되고 진행됩니다.  
 
 ![DialogueMaker](https://github.com/Jung-Eric/ProjectLM/assets/56705742/97488804-6797-4d63-90b6-e2b94e491599)
 
