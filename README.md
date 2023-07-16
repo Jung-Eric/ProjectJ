@@ -79,7 +79,8 @@ scene 초기화, scene 이동, scene 로딩 관리(Asyncronous loading)
 
 NormalMainGameScene(Puzzle 목적의 Game Scene) 에서 Game 플레이를 총괄하는 class.  
 
-GameController_Normal.cs 를 베이스로 기능들에 따라 여러 문서들로 나뉘어서 구현했습니다.  
+[GameController_Normal.cs 를 베이스로 기능들에 따라 여러 문서들로 나뉘어서 구현했습니다.]([링크](https://github.com/Jung-Eric/ProjectLM/blob/master/GameControllerScripts/GameController_Normal.cs))  
+
 </br>
 GameController_Normal.cs 는 Update의 GamePlay 함수를 기반으로 퍼즐 게임의 다양한 진행 단계를 수행합니다.
 GameControllerStruct_Normal.cs 는 Puzzle Game 내 진행 step과 다양한 게임적 요소들에 대한 정의를 가지고 있습니다.  
