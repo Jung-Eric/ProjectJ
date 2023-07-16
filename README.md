@@ -83,15 +83,15 @@ NormalMainGameScene(Puzzle 목적의 Game Scene) 에서 Game 플레이를 총괄
 
 </br>
 
-GameController_Normal.cs 는 Update의 GamePlay 함수를 기반으로 퍼즐 게임의 다양한 진행 단계를 수행합니다.  
+[GameController_Normal.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GameControllerScripts/GameController_Normal.cs)는 Update의 GamePlay 함수를 기반으로 퍼즐 게임의 다양한 진행 단계를 수행합니다.  
 
-GameControllerStruct_Normal.cs 는 Puzzle Game 내 진행 step과 다양한 게임적 요소들에 대한 정의를 가지고 있습니다.  
+[GameControllerStruct_Normal.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GameControllerScripts/GameControllerStruct_Normal.cs)는 Puzzle Game 내 진행 step과 다양한 게임적 요소들에 대한 정의를 가지고 있습니다.  
 
-GameControllerStruct_PlayerInfo.cs 는 유저 기본 정보에 대한 구조, 유저의 게임 내 다양한 변수(점수, 생존 여부, 퍼즐 관련 정보 등)를 가지고 있습니다.  
+[GameControllerStruct_PlayerInfo.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GameControllerScripts/GameControllerStruct_PlayerInfo.cs) 는 유저 기본 정보에 대한 구조, 유저의 게임 내 다양한 변수(점수, 생존 여부, 퍼즐 관련 정보 등)를 가지고 있습니다.  
 
-GameController_Normal_Functions.cs 는 기본적인 게임 구동 매커니즘과 관련한 대부분의 함수를 가지고 있습니다.  
+[GameController_Normal_Functions.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GameControllerScripts/GameController_Normal_Functions.cs) 는 기본적인 게임 구동 매커니즘과 관련한 대부분의 함수를 가지고 있습니다.  
 
-GameControllerUtility_Normal.cs 는 게임 구동 중 UI(Button 등)과 상호작용하는 함수에 대한 함수를 가지고 있습니다.  
+[GameControllerUtility_Normal.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GameControllerScripts/GameControllerUtility_Normal.cs) 는 게임 구동 중 UI(Button 등)과 상호작용하는 함수에 대한 함수를 가지고 있습니다.  
 
 
 
