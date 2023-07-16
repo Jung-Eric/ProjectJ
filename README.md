@@ -98,11 +98,14 @@ NormalMainGameScene(Puzzle 목적의 Game Scene) 에서 Game 플레이를 총괄
 </br>
 
 위 c# script들은 모두 GameController_Normal Class의 partial class 입니다.  
-또한 별도로 GameControllerButton.cs 는 GameController_Normal의 기능을 확장시키는 클래스입니다.
-(Insepctor에 편의성을 위한 UI 기능들을 부여합니다)  
-해당 Inspector UI에는 GameControllerUtility_Normal.cs의 함수들이 연동되어 있기도 합니다.
 
-해당 Inspector UI를 통해 설정 초기화, step 건너뛰기, 상대 임의 플레이 등의 simulation이 가능합니다.
+또한 별도로 [GameControllerButton.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GameControllerScripts/GameControllerButton.cs) 는 GameController_Normal의 기능을 확장시키는 클래스입니다.  
+
+(Insepctor에 편의성을 위한 UI 기능들을 부여합니다)  
+
+해당 Inspector UI에는 GameControllerUtility_Normal.cs의 함수들이 연동되어 있기도 합니다.  
+
+해당 Inspector UI를 통해 설정 초기화, step 건너뛰기, 상대 임의 플레이 등의 simulation이 가능합니다.  
 
 ![GameControllerInspector_small](https://github.com/Jung-Eric/ProjectLM/assets/56705742/f1dee5b1-0a10-4db8-b74b-51f2fda3cf9d)
 
@@ -112,7 +115,7 @@ NormalMainGameScene(Puzzle 목적의 Game Scene) 에서 Game 플레이를 총괄
 
 게임 내 퍼즐 관련 오브젝트의 전체적인 관리를 담당하는 class 입니다.  
 
-GameObjectSpawner.cs 를 통해 구현되어 있습니다.  
+[GameObjectSpawner.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GamePlayingScripts/GameObjectSpawner.cs) 를 통해 구현되어 있습니다.  
 
 </br>
 
@@ -131,7 +134,7 @@ GameObjectSpawner.cs 를 통해 구현되어 있습니다.
 
 퍼즐 관련 object의 Instantiate 및 Destroy를 담당하는 class 입니다.  
 
-DumpController.cs 를 통해서 구현되어 있습니다.  
+[DumpController.cs](https://github.com/Jung-Eric/ProjectLM/blob/master/GamePlayingScripts/DumpController.cs) 를 통해서 구현되어 있습니다.  
 
 </br>
 최소한의 일부 퍼즐 오브젝트는 생성 및 파괴가 불가피하기에 이를 관리합니다. (최대 8개)  
