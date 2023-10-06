@@ -70,7 +70,6 @@ scene 초기화, scene 이동, scene 로딩 관리(Asyncronous loading)
 ![GameManager](https://github.com/Jung-Eric/ProjectLM/assets/56705742/4807975c-f094-4045-8b4e-3bfbae722f8a)
 
 </br>
-(이 class의 세부 code는 게임 내 핵심 요소들의 연관 관계 및 네트워크 연결 정보 및 key값들을 담고 있어서 공개하지 않습니다. 양해 부탁드립니다...)
 
 </br>
 </br>
